@@ -1,0 +1,44 @@
+article{
+    margin: 20px;
+    flex: 70%;
+    padding: 10px; 
+    font-size: 1.5;
+    background-color: white;  
+}
+
+section > .titulo{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo1{
+   line-height: 1.5;
+}
+
+
+
+.corpo1{
+    margin: 30px 0;
+    
+}
+
+.corpo2{
+    margin: 30px 0;
+}
+
+.borda{
+    margin: 10px;
+    border-bottom: 1px dashed green;   
+    padding: 20px;
+}
+
+.sub{
+    color: green;
+   
+}
+
+
+
+

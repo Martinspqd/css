@@ -1,0 +1,78 @@
+aside{
+    margin: 20px;
+    height: 100%;
+    flex: 30%;
+    background-color: white;
+    padding: 10px;
+}
+
+aside > .imagem{
+    height: 300px;
+    background-image: url(../imagens/08e3247a45d0204daa7f2c1b164addf1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.info{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+.skills > .skills-grafico{
+   
+    width: 100%;
+    border: 1px solid black;
+    background-color: grey;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+
+.skills-grafico > .preenchimento{
+    border-radius: 30px;
+    background-color: green;
+    width: 70%;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+.skills-grafico > .css{
+    border-radius: 30px;
+    background-color: green;
+    width: 70%;
+  
+}
+
+.skills-grafico > .javascript{
+    border-radius: 30px;
+    background-color: green;
+    width: 50%;
+ 
+    
+}
+
+.skills-grafico > .react{
+    border-radius: 30px;
+    background-color: green;
+    width: 20%;
+   
+}
+
+ .skills-grafico > .lingua{
+    border-radius: 30px;
+    background-color: green;
+    width: 40%;
+    text-align: center;
+}
+
+.skills-grafico > .lingua2{
+    border-radius: 30px;
+    background-color: green;
+    width: 10%;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
