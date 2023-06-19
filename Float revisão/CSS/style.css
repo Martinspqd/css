@@ -1,0 +1,29 @@
+nav{
+    float: left;
+    width: 100%
+}
+.div1{
+    background-color: rgb(34, 34, 148);
+    float: left;
+    width: 33%;
+}
+
+.div2{
+    background-color: rgb(121, 61, 177);
+    float: left;
+    width: 33%;
+}
+
+.div3{
+    background-color: cadetblue;
+    float: left;
+    width: 34%;
+}
+
+.box{
+    background-color: aquamarine;
+    border: 1px solid black;
+    float: right;
+    height:300px;
+    width: 200px; 
+}

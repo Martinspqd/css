@@ -1,0 +1,29 @@
+.grid1{
+    max-width: 600px;
+    margin: auto;
+    max-height: 300px ;
+    grid-template-columns: 200px 200px 200px;
+    border: 1px black solid;
+    display: grid;
+
+}
+
+.item{
+    text-align: center;
+    background-color: aqua;
+    border: 1px black solid;
+}
+
+.grid2{
+    max-width: 600px;
+    margin: auto;
+    max-height: 300px ;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 1px black solid;
+    display: grid;
+}
+
+.item2{
+    text-align: center;
+    background-color: aquamarine;
+}

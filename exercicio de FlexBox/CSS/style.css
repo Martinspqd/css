@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+   
+}
+
+nav{
+    text-align: center ;
+}
+
+section{
+    margin-top:20px ;
+}
+
+
+.primeiro > div{
+  
+  
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  
+}
+
+.primeiro{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.segundo > div{
+    
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.segundo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.terceiro > div{
+   
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.terceiro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quarto > div{
+   
+    padding: 10px;
+  width: 300px;
+  height: 50px;
+
+}
+
+.quarto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cor{
+    background-color: green;
+}
+
+.cores{
+    background-color: blue;
+}
+
+.coress{
+    background-color: red;
+}
+ 
+.pai{
+    margin: 20px;
+}

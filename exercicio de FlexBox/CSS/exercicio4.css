@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aqua;
+    height: 200px;
+    margin: auto;
+    width: 100%;
+}
+.box{
+    display: flex;
+}
+.section1{
+    flex-direction: column;
+}
+
+.div1{
+        background-color: rgb(255, 102, 255);
+        width: 500px;
+        height: 500px;
+        margin: 5px;
+}
+
+.div2{
+    background-color: rgb(61, 209, 61);
+    width: 500px;
+    height: 600px;
+    margin: 5px;
+}
+
+.section2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.div3{
+    background-color: yellow;
+    width: 900px;
+    height: 700px;
+    margin: 5px;
+    
+
+}
+
+.div4{
+    background-color: grey;
+    width: 900px;
+    height: 400px;
+    margin: 5px;
+}
+
+.section3{
+justify-content: space-around;
+display: flex;
+}
+
+.div5{
+    background-color: green;
+    width: 1100px;
+    height: 250px;
+    margin: 5px;   
+}
+
+.div6{
+    background-color: pink;
+    width: 350px;
+    height: 250px;
+    margin: 5px;
+}
+
+footer{
+    background-color: orangered;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}

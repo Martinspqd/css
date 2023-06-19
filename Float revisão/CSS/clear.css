@@ -1,0 +1,21 @@
+.div1, .div3{
+    border: 3px solid blueviolet;
+    float: left;
+    padding: 10px;
+
+}
+
+.div2{
+    border: 3px solid blue;
+    padding: 10px;
+
+}
+
+.div4{
+    border: 3px solid black;
+    clear: left;
+    padding: 10px;
+}
+
+
+

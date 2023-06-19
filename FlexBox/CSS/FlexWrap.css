@@ -1,0 +1,26 @@
+    body{
+        background-color: blue;
+    }
+
+
+    .flexwrap > div{
+        background-color: rgb(226, 43, 43);
+        height: 100px;
+        margin: 10px;
+        padding: 20px;
+        width: 100px;
+        text-align: center;
+       
+    }
+
+    .flexwrap{
+        display: flex;
+        background-color: aquamarine;
+        margin: auto;
+        display: flex;
+        justify-content: space-between
+     
+    }
+
+
+        

@@ -1,0 +1,22 @@
+.div-container > div{
+    margin: 10px;
+    padding: 30px;
+    width: 500px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    background: linear-gradient( to left, black, #858388);
+}
+
+.div-container{
+    display: flex;
+}
+
+
+
+.div-box{
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(35, 192, 197);
+    border: 2px solid black;
+    background: linear-gradient( to left, black, #858388);
+}
